@@ -1,0 +1,101 @@
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+body {
+    color: #666;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+/* ==========================================================================
+   Layout
+   ========================================================================== */
+
+header {
+    background-color: #000;
+    width: 100%;
+    padding:5px;
+    height: 40px;
+}
+
+.brand {
+    float:left;
+    height:300%;
+    width:100px;
+}
+
+.nav-primary {
+    float:right;
+    padding:2px 30px;
+}
+
+.nav-primary ul li {
+    display: inline;
+    padding: 0 10px 0 0;
+}
+
+.nav-primary ul li a{
+    color: #fff;
+}
+
+.hero {
+    background-color: #000;
+    min-height: 300px;
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+}
+
+#pagewrap{
+    padding: 5px;
+    min-height: 700px;
+    width: 960px;
+    margin: 20px auto;
+}
+
+#sidebar-left{
+    background: #f8f8f8;
+    width: 290px;
+    float: left;
+    padding: 5px 15px;
+}
+
+#middle{
+    margin: 0px 5px 5px 5px;
+    padding: 5px; 15px;
+    float: left;
+    width: 294px;
+}
+
+#sidebar{
+    background: #f0efef;
+    width: 270px;
+    float: left;
+    padding: 5px 15px;
+}
